@@ -12,7 +12,7 @@ And the GUI should spawn
 
 <img width="590" alt="Image converter GUI" src="https://user-images.githubusercontent.com/49133332/202079387-90451913-2a51-4679-9bbe-5b4d49dbbb23.png">
 
-The dropdown on the top left is the format you want to convert to. 
+The dropdown on the top left lets you select the format you want to convert to. 
 
 Simply drag and drop the image files to the designated area. The converted files will be placed in the same directory where the original images live. 
 
