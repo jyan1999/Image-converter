@@ -2,7 +2,7 @@
 Image format converter with Pillow. Supports converting between common image formats (JPG,PNG,HEIC,etc.) Provides a simple GUI that supports drag-and-drop multiple files.
 
 ## How it works
-To use the converter, simply runs:
+To use the converter, simply run:
 
 ```bash
 $ python main.py
@@ -18,4 +18,4 @@ Simply drag and drop the image files to the designated area. The converted files
 
 You can also click on the drag-and-drop area to browse and select files locally 
 
-Texts in the bottom show the status of the converter and will display warnings if incompatible files are dropped. The check and output options are manually configured from [Pillow documentation](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html) and are not exhaustive. Feel free to add as long as the changes are Pillow-compatible.
+Texts in the bottom show the status of the converter and will display warnings if incompatible files are included. The check and output options are manually configured from [Pillow documentation](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html) and are not exhaustive. Feel free to add as long as the changes are Pillow-compatible.
