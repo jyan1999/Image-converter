@@ -36,6 +36,7 @@ class Window(QWidget):
 
     
     def change_target(self, text):
+        global target
         target = text
     
     def create_comboBox(self):
@@ -60,6 +61,7 @@ class Window(QWidget):
         self.status.setText("\n\nAccepting Images\n\n")
     
     def dropEvent(self, event):
+        global target
         event.accept()
         urls = event.mimeData().urls()
         urls = [url.toLocalFile() for url in urls]
@@ -91,6 +93,7 @@ class ImageLabel(QLabel):
         event.accept()
     
     def mouseReleaseEvent(self, event) -> None:
+        global target
         event.accept()
         urls = QFileDialog.getOpenFileUrls(self,"open files")[0]
         urls = [url.toLocalFile() for url in urls]
